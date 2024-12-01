@@ -1,3 +1,13 @@
+/**
+ * The Main class demonstrates the functionality of the Quadtree data structure.
+ * It uses the InternalNode, LeafNode, and Rect classes to:
+ * - Insert rectangles into the Quadtree.
+ * - Search for a rectangle at a specific point.
+ * - Update an existing rectangle.
+ * - Delete a rectangle.
+ * - Dump the tree structure to view the layout of the Quadtree.
+ */
+
 public class Main {
     public static void main(String[] args) {
         InternalNode rootNode = new InternalNode(0, 0, 100, 100);
