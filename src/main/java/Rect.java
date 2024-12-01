@@ -34,5 +34,10 @@ public class Rect {
     public double getWid(){ 
         return wid; 
     }
+
+    @Override
+    public String toString() {
+        return String.format("Rect[cordx=%.2f, cordy=%.2f, len=%.2f, wid=%.2f]", this.cordx, this.cordy, this.len, this.wid);
+    }
 }
 
